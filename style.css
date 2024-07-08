@@ -1,4 +1,3 @@
-
 body {
   font-family: "Gowun Batang", serif;
   margin: 0;
@@ -13,29 +12,29 @@ button {
   color: white;
   font-weight: bold;
   opacity: 0.7;
-  transition: 0.3s;  
+  transition: 0.3s;
 }
 
 button:hover {
   background-color: #9ca3af;
   opacity: 1;
-  scale: 1.1;  
+  scale: 1.1;
   transition: 0.3s;
 }
 
 #header {
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: #e5e7eb;
-padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 10px;
 }
 
 input {
   border: 0px;
   font-family: "Gowun Batang", serif;
   text-align: center;
-  outline: none;        
+  outline: none;
 }
 
 input:focus {
@@ -44,43 +43,40 @@ input:focus {
   outline: none;
 }
 
-
-
 select {
   border: none;
   font-family: "Gowun Batang", serif;
-  text-align: center;  
+  text-align: center;
 }
 
-
-#cont{
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-gap: 1em;
-padding: 1em;
+#cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+  padding: 1em;
 }
 
 #cont > div {
-display: grid;
-justify-items: center;
-border: 1px solid #e5e7eb;
-padding: 1em;
+  display: grid;
+  justify-items: center;
+  border: 1px solid #e5e7eb;
+  padding: 1em;
 }
 
 #cont > div > div {
-width: 100%;
-display: flex;
-justify-content: space-around;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 #cont > div > p {
-text-align: center;
+  text-align: center;
 }
 
 #cont > div > div > button:first-of-type {
-background-color: red;
+  background-color: red;
 }
 
 #cont > div > div > button {
-background-color: green;
+  background-color: green;
 }
